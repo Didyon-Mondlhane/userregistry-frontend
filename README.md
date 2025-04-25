@@ -38,10 +38,10 @@ Para instalar as dependências e iniciar o servidor de desenvolvimento:
 
 ## ✨ Funcionalidades
 
-✔️ Registro de utilizadores com foto  
-✔️ Edição de perfis  
-✔️ Listagem paginada de utilizadores
-✔️ Busca dinâmica de registros  
+- Registro de utilizadores com foto  
+- Edição de perfis  
+- Listagem paginada de utilizadores
+- Busca dinâmica de registros  
 
 ---
 
