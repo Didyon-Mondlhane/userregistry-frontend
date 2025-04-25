@@ -1,0 +1,36 @@
+.users-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-new-user {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #1b1b1b;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-family: 'Sulphur Point', sans-serif;
+  }
+  
+  .user-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
