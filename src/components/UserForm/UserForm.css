@@ -1,0 +1,191 @@
+.form-wrapper {
+    width: 60%;
+    max-width: 600px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: 20px auto;
+  }
+  
+  .form-header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #1b1b1b;
+  }
+  
+  .form-header p {
+    font-size: 14px;
+    color: #a3a3a3;
+    margin: 0;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #1b1b1b;
+    font-weight: 500;
+  }
+  
+  .form-control {
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 2px solid #1b1b1b;
+    border-radius: 7px;
+    font-family: "Sulphur Point", sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+  }
+  
+  .naturalidade-fieldset {
+    border: 2px solid #1b1b1b;
+    border-radius: 7px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .naturalidade-legend {
+    font-size: 13px;
+    padding: 0 8px;
+    color: #1b1b1b;
+    font-weight: 500;
+  }
+  
+  .photo-container {
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    border: 2px dashed #1b1b1b;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    position: relative;
+    background-color: #f9f9f9;
+  }
+  
+  .photo-container p {
+    color: #1b1b1b;
+    margin: 0;
+    font-size: 13px;
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .btn-register {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 5px;
+    font-family: "Sulphur Point", sans-serif;
+    height: 40px;
+  }
+  
+  .btn-register:hover {
+    background-color: #333;
+  }
+  
+  .btn-register:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .required:after {
+    content: " *";
+    color: red;
+  }
+  
+  .photo-options {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .photo-options-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  .photo-option-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #1b1b1b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .photo-option-btn.cancel {
+    background-color: #e74c3c;
+  }
+  
+  .camera-view {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .camera-view video {
+    background-color: #000;
+    width: 100%;
+    max-height: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .form-wrapper {
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .form-row {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
